@@ -68,11 +68,7 @@ This method of procedure is designed to be simple, instructional, and easy to fo
     AZURE_AI_ENDPOINT_VERSION=2024-XX-XX
     AZURE_AI_CHAT_MODEL=gpt-4o
     ```
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Use a virtual environment to ensure:
+2. Use a virtual environment to ensure:
    -  Always create a virtual environment per project: You only install what you need.
 
     ```bash
@@ -82,11 +78,12 @@ This method of procedure is designed to be simple, instructional, and easy to fo
   ```bash
   .venv\Scripts\activate # or, on linux use: source .venv/bin/activate
   ```
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 - Use `requirements.txt` to track dependencies and to install the libraries in your virtual enviroment.
 - You can test compatibility locally before deploying to Azure Cloud and avoid system-wide package conflicts.
-  ```bash
-  pip install -r requirements.txt
-  ```
 - Test locally in the same environment as your target Azure service.
 - Use VS Code’s Python and Azure extensions for seamless integration.
 
